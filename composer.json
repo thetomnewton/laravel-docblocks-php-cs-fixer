@@ -1,0 +1,43 @@
+{
+    "name": "thetomnewton/laravel-docblocks-php-cs-fixer",
+    "description": "Laravel docblocks package for PHP-CS-Fixer",
+    "keywords": [
+        "thetomnewton",
+        "laravel-docblocks-php-cs-fixer"
+    ],
+    "homepage": "https://github.com/thetomnewton/laravel-docblocks-php-cs-fixer",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tom Newton",
+            "email": "tom@tomn.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.6",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thetomnewton\\LaravelDocFixer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thetomnewton\\LaravelDocFixer\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
