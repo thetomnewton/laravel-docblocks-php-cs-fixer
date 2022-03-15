@@ -14,6 +14,8 @@ You can install the package via composer:
 composer require thetomnewton/laravel-docblocks-php-cs-fixer
 ```
 
+Of course, you will also need the [PHP-CS-Fixer](https://github.com/friendsofphp/php-cs-fixer) package installed.
+
 ## Usage
 
 In your `.php-cs-fixer.php`, add the custom fixer to your config class, like so:
