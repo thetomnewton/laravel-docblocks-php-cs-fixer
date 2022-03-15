@@ -30,8 +30,8 @@ class LaravelDocblocks implements FixerInterface
                 '/(@var  )/',
                 '/(@param )([^ ])/',
                 '/(@param)( {3,})/',
-                '/(@param  )([^ ]*)(?<=[^( |\n)])( )([^ ]*)/',
-                '/(@param  )([^( |\n)]*)( {3,})/',
+                '/(@param  )([^ ]*)(?<=[^( \n)])( )([^ ]*)/',
+                '/(@param  )([^( \n)]*)( {3,})/',
             ], [
                 '* @',
                 '@return ',
